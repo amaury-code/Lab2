@@ -1,7 +1,7 @@
 <%-- 
     Document   : calcjsp
-    Created on : Mar 27, 2022, 6:07:24 PM
-    Author     : santi
+    Created on : 20 oct, 2022, 6:07:24 PM
+    Author     : amau
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -21,13 +21,13 @@
             <section>
                 <form name="calc" action="CalcServlet" method="POST">
                 
-                <label for="numero1"> N&uacute;mero #1</label>                
+                <label for="numero1"> Nº1</label>                
                 <input type="text" name="numero1" >
                 
-                <label for="numero2"> N&uacute;mero #2</label>
+                <label for="numero2"> Nº2</label>
                 <input type="text" name="numero2">
                 <br/>
-                <label for="operacion-select"> Operadores </label>
+                <label for="operacion-select"> Operar </label>
                 <select name="operador" id="operacion-select">
                     <option value="+">sumar</option>
                     <option value="-">restar</option>
