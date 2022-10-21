@@ -29,12 +29,10 @@
                 <br/>
                 <label for="operacion-select"> Operadores </label>
                 <select name="operador" id="operacion-select">
-                    <option value="+">SUMAR</option>
-                    <option value="-">RESTAR</option>
-                    <option value="*">MULTIPLICAR</option>
-                    <option value="/">DIVIDIR</option>
-                    <option value="%">MODULO</option>
-                    <option value="^">CUADRADO</option>
+                    <option value="+">sumar</option>
+                    <option value="-">restar</option>
+                    <option value="*">multiplicar</option>
+                    <option value="/">dividir</option>
                 </select>
                   
                 <input class="button" type="submit" value="solucionar">

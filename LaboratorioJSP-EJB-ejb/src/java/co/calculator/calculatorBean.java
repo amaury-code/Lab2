@@ -16,10 +16,6 @@ public class calculatorBean implements calculatorBeanLocal {
                 return a*b;
             case '/':
                 return (b!=0)? a/b : null;
-            case '%':
-                return a%b;
-            case '^':
-                return Math.pow(a, b);
             default:
                 return null;
         }

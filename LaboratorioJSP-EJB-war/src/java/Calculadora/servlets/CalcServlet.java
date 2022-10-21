@@ -28,9 +28,9 @@ public class CalcServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            double a = Double.parseDouble(request.getParameter("numero1"));
+            double v1 = Double.parseDouble(request.getParameter("numero1"));
             String operador= request.getParameter("operador");
-            double b = Double.parseDouble(request.getParameter("numero2"));  
+            double v2 = Double.parseDouble(request.getParameter("numero2"));  
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
@@ -38,7 +38,7 @@ public class CalcServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>CALCULADORA  </h1>");                     
-            out.println("<h1>Resultado = " + calculatorBean.operar(a, b, operador.charAt(0)) + "</h1>");
+            out.println("<h1>Resultado = " + calculatorBean.operar(v1, v2, operador.charAt(0)) + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
